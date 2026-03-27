@@ -90,3 +90,6 @@ plt.xlabel("Internship Experience (0 vs ≥1)")
 plt.xticks([0, 1], ["No Internship", "At Least 1 Internship"], rotation=0)
 plt.tight_layout()
 plt.show()
+
+mean_prob = (p_no_intern + p_with_intern) / 2
+print(mean_prob)
