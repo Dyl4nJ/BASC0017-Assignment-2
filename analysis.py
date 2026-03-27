@@ -1,10 +1,10 @@
 # Imports
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Dataset
-df = pd.read_csv("Global Student Placement & Salary Dataset.csv")
+df = pd.read_csv("/content/Global Student Placement & Salary Dataset.csv")
 
 print(df.info())
 print(df.isnull().sum())
@@ -91,5 +91,6 @@ plt.xticks([0, 1], ["No Internship", "At Least 1 Internship"], rotation=0)
 plt.tight_layout()
 plt.show()
 
-mean_prob = (p_no_intern + p_with_intern) / 2
-print(mean_prob)
+# Mean Probability of Placement (with internships)
+mean_prob_1_to_5 = placement_rates.loc[1:5].mean()
+print(mean_prob_1_to_5)
