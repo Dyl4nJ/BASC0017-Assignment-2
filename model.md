@@ -266,5 +266,5 @@ Define the threshold:
 Therefore, the decision rule is:
 
 \[
-\text{Choose } G \iff \mu(s)>\mu^*
+\text{Choose } G \iff \mu(s) ≥ \mu^*
 \]
