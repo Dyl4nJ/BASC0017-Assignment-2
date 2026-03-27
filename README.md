@@ -6,7 +6,7 @@ This project models the decision of whether to take a gap year between the secon
 
 The key uncertainty is whether a future self will behave in a disciplined or undisciplined manner. This is formalised as a Bayesian decision problem in which the present self updates beliefs based on a signal and chooses whether to take a gap year.
 
-The model is calibrated using empirical data on internships and graduate outcomes, allowing for a numerical solution and comparative statics analysis.
+The model is calculated using empirical data on internships and graduate outcomes, allowing for a numerical solution and comparative statics analysis.
 
 ---
 
