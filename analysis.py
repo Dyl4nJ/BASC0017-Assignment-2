@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Dataset
-df = pd.read_csv("/content/Global Student Placement & Salary Dataset.csv")
+df = pd.read_csv("Global Student Placement & Salary Dataset.csv")
 
 print(df.info())
 print(df.isnull().sum())
